@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner leitor=new Scanner(System.in);
+	    int opcao;
+		float saldo;
+		float deposito;
+		float saque;
+	    do{
+		System.out.println("Voce deseja realizar qual tipo de operacao: ");
+		System.out.println("1-deposito");
+		System.out.println("2-saque");
+		System.out.println("0-sair");
+		opcao=leitor.nextInt();
+		switch(opcao){
+		    case 1: System.out.println("Digite seu saldo ");
+		            saldo=leitor.nextFloat();
+		            System.out.println("Voce seja depositar quanto? ");
+		            deposito=leitor.nextFloat();
+		            System.out.println("Seu novo saldo sera de: "+(saldo+deposito));
+		            break;
+		    case 2: System.out.println("Digite seu saldo: ");
+	            	saldo=leitor.nextFloat();
+		            System.out.println("Voce deseja sacar quanto? ");
+		            saque=leitor.nextFloat();
+		            if (saldo>=saque)
+		                System.out.println("Seu novo saldo sera de: "+(saldo-saque));
+		            else
+		                System.out.println("Digite um valor valido (ate o limite do seu saldo). ");
+		            break;
+		    case 0: System.out.println("Ate a proxima!");
+		            break;
+		    default: System.out.println("Opcao invalida. Digite 1(deposito), 2(saque ou 0(sair).");
+		}
+	    }
+	    while (opcao!=0);
+	}
+}
