@@ -1,4 +1,4 @@
-<h1 align="center">Exericios para aprender java e POO com linguagem JAVA</h1>
+<h1 align="center">Exericios para aprender POO com linguagem JAVA</h1>
 
 
 
