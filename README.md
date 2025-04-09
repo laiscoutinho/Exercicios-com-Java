@@ -54,6 +54,8 @@ mostrando os dados da conta após cada operação.
 
 - <strong>E07 - Informações de Conta bancária no terminal: </strong> Esse exercício é com base no desafio da DIO - [Repositorio](https://github.com/digitalinnovationone/trilha-java-basico.git): desafios/sintaxe
 
+- <strong>E08 - Controle de Fluxo: </strong> Esse exercício é com base no desafio da DIO - [Repositorio](https://github.com/digitalinnovationone/trilha-java-basico.git): desafios/controle-fluxo
+
 ## 📄 Licença
 
 Este projeto está licenciado sob a [MIT LICENSE]. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações sobre os termos de licenciamento.
