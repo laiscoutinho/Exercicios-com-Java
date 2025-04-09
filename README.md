@@ -52,6 +52,8 @@ Você deve fazer um programa que realize o cadastro de uma conta, dando opção 
 informado o valor de depósito inicial. Em seguida, realizar um depósito e depois um saque, sempre
 mostrando os dados da conta após cada operação.
 
+- <strong>E07 - Informações de Conta bancária no terminal: </strong> Esse exercício é com base no desafio da DIO - [Repositorio](https://github.com/digitalinnovationone/trilha-java-basico.git): desafios/sintaxe
+
 ## 📄 Licença
 
 Este projeto está licenciado sob a [MIT LICENSE]. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações sobre os termos de licenciamento.
