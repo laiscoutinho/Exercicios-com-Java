@@ -1,4 +1,4 @@
-package interafaces;
+package interfaces;
 
 public interface IConta {
 	void sacar(double valor);

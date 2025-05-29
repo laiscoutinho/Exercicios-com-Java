@@ -1,5 +1,6 @@
 package entities;
 
+import interfaces.IConta;
 import lombok.Getter;
 import lombok.Setter;
 
